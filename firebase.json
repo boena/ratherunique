@@ -5,7 +5,7 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**",
-      "public/css/dev.css",
+      "public/css/dev.css"
     ]
   }
 }
