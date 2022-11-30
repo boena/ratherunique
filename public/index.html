@@ -4,89 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <meta name="description" content="Rather Unique AB. Indie game studio and creators of Golf Dreams for iOS and Android.">
+  
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700;900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700;900&display=swap" rel="stylesheet">
+    </noscript>
+  
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
+  
     <link rel="stylesheet" href="/css/production.css">
-    <title>Golf Dreams</title>
+    <title>Rather Unique Games</title>
   </head>
   <body class="antialiased">
-    <section class="bg-gradient-to-b from-blue-500 to-green-400 px-4">
+    <section class="bg-gradient-to-b from-purple-500 to-pink-400 px-4 h-screen">
       <aside class="container mx-auto py-16 text-center">
-        <h1 class="text-white text-6xl md:text-8xl font-black">
-          Golf Dreams
+        <h1 class="text-white text-4xl md:text-6xl font-black">
+          Rather Unique Games
         </h1>
         <ul class="text-white text-xl md:text-2xl mt-8 max-w-xl mx-auto">
-          <li class="mb-8">Tee off in awesome settings and relax with birds chirping in the nature.</li>
-          <li>Challenge your friends or other real players from around the world and show them who's boss at the golf course!</li>
+          <li class="mb-8">Indie Game Studio from Stockholm, Sweden.</li>
+          <li class="mb-4">Makers of <a href="https://golfdreams.app" class="font-bold underline" title="Golf Dreams - a mobile game for iOS and Android">Golf Dreams</a> for iOS and Android.</li>
+          <li class="mb-4">A mobile golf game that uses real physics and groundbreaking controls.</li>
         </ul>
         <p class="mt-12">
-          <a href="https://apps.apple.com/app/golf-dreams/id1551178669" title="Download on App Store" class="inline-block mx-2 mb-4 md:mb-0">
-            <img src="/img/download-app-store.png" class="h-16" alt="" loading="lazy">
+          <a href="https://apps.apple.com/app/golf-dreams/id1551178669" title="Download Golf Dreams on App Store"
+            class="inline-block mx-2 mb-4 md:mb-0">
+            <picture class="h-16">
+              <source type="image/webp" srcset="/img/download-golf-dreams-app-store.webp">
+              <source type="image/png" srcset="/img/download-golf-dreams-app-store.png">
+              <img src="/img/download-golf-dreams-app-store.png" class="h-16" width="216" height="64"
+                alt="App Store Download Button" loading="lazy">
+            </picture>
           </a>
           <br class="md:hidden">
-          <a href="https://play.google.com/store/apps/details?id=com.ratherunique.bogeyball" title="Download on Google Play" class="inline-block mx-2">
-            <img src="/img/download-google-play.png" class="h-16" alt="" loading="lazy">
+          <a href="https://play.google.com/store/apps/details?id=com.ratherunique.bogeyball"
+            title="Download Golf Dreams on Google Play" class="inline-block mx-2">
+            <picture class="h-16">
+              <source type="image/webp" srcset="/img/download-golf-dreams-google-play.webp">
+              <source type="image/png" srcset="/img/download-golf-dreams-google-play.png">
+              <img src="/img/download-golf-dreams-google-play.png" width="218" height="64" class="h-16"
+                alt="Google Play Download Button" loading="lazy">
+            </picture>
+          </a>
+        </p>
+        <p class="mt-12">
+          <a href="https://discord.gg/9wgc8M97sA" title="Get help in our Discord" class="inline-block mx-4 mb-4 md:mb-0">
+            <picture class="h-16">
+              <source type="image/webp" srcset="/img/discord-icon.webp">
+              <source type="image/png" srcset="/img/discord-icon.png">
+              <img src="/img/discord-icon.png" class="h-16" width="64" height="64" alt="Discord Icon" loading="lazy">
+            </picture>
+            <span class="text-white text-sm">Discord</span>
+          </a>
+          <a href="https://www.facebook.com/golfdreamsofficial" title="Get help on Facebook"
+            class="inline-block mx-4 mb-4 md:mb-0">
+            <picture class="h-16">
+              <source type="image/webp" srcset="/img/facebook-icon.webp">
+              <source type="image/png" srcset="/img/facebook-icon.png">
+              <img src="/img/facebook-icon.png" class="h-16" width="64" height="64" alt="Facebook Icon" loading="lazy">
+            </picture>
+            <span class="text-white text-sm">Facebook</span>
           </a>
         </p>
       </aside>
     </section>
-    <section class="container mx-auto max-w-screen-lg mt-24">
-      <h2 class="text-center text-3xl font-bold uppercase mb-8">Game Features</h2>
-      <ul class="flex flex-wrap">
-        <li class="w-1/2 md:w-1/4 mb-4">
-          <img src="/img/awesome-courses.jpg" alt="" loading="lazy">
-        </li>
-        <li class="w-1/2 md:w-1/4 mb-4">
-          <img src="/img/instant-multiplayer.jpg" alt="" loading="lazy">
-        </li>
-        <li class="w-1/2 md:w-1/4 mb-4">
-          <img src="/img/master-greens.jpg" alt="" loading="lazy">
-        </li>
-        <li class="w-1/2 md:w-1/4 mb-4">
-          <img src="/img/shape-shots.jpg" alt="" loading="lazy">
-        </li>
-      </ul>
-    </section>
-    <footer class="bg-white">
-      <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-        <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
-          <!-- <div class="px-5 py-2">
-            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-              About
-            </a>
-          </div> -->
-
-          <div class="px-5 py-2">
-            <a href="/terms" class="text-base text-gray-500 hover:text-gray-900">
-              Terms &amp; Conditions
-            </a>
-          </div>
-
-          <div class="px-5 py-2">
-            <a href="/privacy-policy" class="text-base text-gray-500 hover:text-gray-900">
-              Privacy Policy
-            </a>
-          </div>
-
-          <div class="px-5 py-2">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJgJlrUbb66QPl4trKw7QqMT9lxZp30Ixy7wxIVYRKlePBwQ/viewform?hl=en" class="text-base text-gray-500 hover:text-gray-900">
-              Support
-            </a>
-          </div>
-
-        </nav>
-        <p class="mt-8 text-center text-base text-gray-400">
-          &copy; 2010-2021 Rather Unique AB.
-        </p>
-      </div>
-    </footer>
-
   </body>
 </html>
